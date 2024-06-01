@@ -8,11 +8,13 @@ class MyException extends Exception{
 public class custom {
     public static void main(String[] args){
         String str = null;
+        int len;
         try{
             if(str == null){
                 throw new MyException("String is Empty");
             }
-            int len = str.length();
+            else  
+                 len = str.length();
         }
         catch(MyException e){
             System.out.println("Something went wrong...");
