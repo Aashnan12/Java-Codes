@@ -55,6 +55,4 @@ public class AWTCALC extends JFrame implements ActionListener {
     public static void main(String[] args) {
         AWTCALC obj = new AWTCALC();
     }
-
-
 }
